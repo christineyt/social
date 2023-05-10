@@ -97,15 +97,15 @@
 
     <div class="wrapper">
 
-      <!-- Start blog Icon -->
+      <!-- Start medium Icon -->
       <div id="blog" onclick="navigate(this.id)" class="social">
-        <span class="icon blog"><i class="fa-solid fa-briefcase"></i></span>
+        <span class="icon blog"><i class="fa-solid fa-medium"></i></span>
       </div>
-      <!-- End blog Icon -->
+      <!-- End medium Icon -->
 
-      <!-- Start email Icon -->
-      <div id="email" onclick="navigate(this.id)" class="social">
-        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
+      <!-- Start portfolio Icon -->
+      <div id="portfolio" onclick="navigate(this.id)" class="social">
+        <span class="icon portfolio"><i class="fa-solid fa-briefcase"></i></span>
       </div>
       <!-- End email Icon -->
 
@@ -146,19 +146,16 @@
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
         if (id === "medium")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+          window.open("https://medium.com/@christineyt/how-to-use-reference-pictures-to-define-and-communicate-for-design-direction-48c960d22af1", '_blank').focus(); //Add the url to your blog
 
-        else if (id === "email") {
-          window.open("mailto:someone@yoursite.com", '_blank').focus(); //Add your email after "mailto:""
+        else if (id === "portfolio") {
+          window.open("https://christinechan.myportfolio.com/, '_blank').focus(); //Add your email after "mailto:""
         }
         else if (id === "instagram") {
           window.open("instagram.com", '_blank').focus(); //Add the url to your instagram account
         }
         else if (id === "linkedin") {
           window.open("https://www.linkedin.com/", '_blank').focus(); //Add the url to your pinterest account
-        }
-        else if (id === "twitter") {
-          window.open("https://twitter.com/", '_blank').focus(); //Add the url to your pinterest account
         }
         else if (id === "dribbble") {
           window.open("https://www.tiktok.com/", '_blank').focus(); //Add the url to your tiktok account
